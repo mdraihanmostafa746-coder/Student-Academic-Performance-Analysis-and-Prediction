@@ -64,7 +64,7 @@ Student-Academic-Performance-Analysis-and-Prediction/
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/Student-Academic-Performance-Analysis-and-Prediction.git
+git clone https://github.com/mdraihanmostafa746-coder/Student-Academic-Performance-Analysis-and-Prediction.git
 ```
 
 Navigate to the project directory:
