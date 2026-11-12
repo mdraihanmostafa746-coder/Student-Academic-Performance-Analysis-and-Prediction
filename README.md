@@ -1,131 +1,65 @@
 # Student Academic Performance Analysis and Prediction
 
-## 📌 Project Overview
+## Overview
+This project focuses on analyzing student academic performance, identifying factors that may influence examination scores, and predicting student performance using Machine Learning techniques.
 
-This project focuses on analyzing student academic performance, identifying the factors that influence academic outcomes, and predicting examination scores using Machine Learning techniques.
+## Objectives
+- Analyze student academic performance.
+- Explore factors associated with examination scores.
+- Build regression models to predict exam scores.
+- Classify students into performance categories.
+- Apply dimensionality reduction and clustering techniques.
+- Compare different Machine Learning models.
 
-The project uses Python and the **Student Performance Factors** dataset from Kaggle to explore relationships between student-related attributes and academic performance.
+## Dataset
+**Source:** [Student Performance Factors – Kaggle](https://www.kaggle.com/datasets/lainguyn123/student-performance-factors)
 
-## 🎯 Objectives
+The dataset contains student-related information and examination scores.
 
-- Analyze factors affecting student academic performance.
-- Predict examination scores using Regression models.
-- Classify students into different performance categories.
-- Apply dimensionality reduction using PCA.
-- Compare different Machine Learning algorithms.
-- Identify student groups using clustering techniques.
-- Explore unusual observations through anomaly detection.
-
-## 📊 Dataset
-
-**Dataset Name:** Student Performance Factors
-
-**Source:** Kaggle
-
-**Dataset Link:** https://www.kaggle.com/datasets/lainguyn123/student-performance-factors
-
-The dataset contains student-related attributes that may influence academic performance, such as study habits, attendance, sleep, motivation, and other relevant factors.
-
-*Note: Actual available columns and the target variable will be verified during data exploration.*
-
-## 🛠️ Technologies & Libraries
-
+## Technologies Used
 - Python
-- Jupyter Notebook / Google Colab
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+- Pandas & NumPy
+- Matplotlib & Seaborn
 - Scikit-learn
+- Mlxtend
+- Jupyter Notebook
 
-## 📚 Project Modules
+## Project Workflow
+1. Data Loading and Inspection
+2. Data Cleaning and Preprocessing
+3. Exploratory Data Analysis (EDA)
+4. Regression Analysis
+   - Simple Linear Regression
+   - Multiple Linear Regression
+   - Polynomial Regression
+5. Classification
+   - Logistic Regression
+   - K-Nearest Neighbors (KNN)
+6. Model Validation using 5-Fold Cross Validation
+7. Principal Component Analysis (PCA)
+8. Advanced Machine Learning
+   - Decision Tree
+   - Random Forest
+   - Support Vector Regression (SVR)
+9. Unsupervised Learning
+   - K-Means Clustering
+   - Hierarchical Clustering
+   - Association Rule Mining
+   - Isolation Forest
+10. Model Evaluation and Comparison
 
-### Module 6 – Linear Regression
-- Simple Linear Regression
-- Multiple Linear Regression
-- Polynomial Regression
-- Model Evaluation
-
-### Module 7 – Classification
-- Logistic Regression
-- Linear Discriminant Analysis (LDA)
-- K-Nearest Neighbors (KNN)
-- Classification Evaluation
-
-### Module 8 – Resampling
-- Train-Test Split
-- 5-Fold Cross-Validation
-- Bootstrap Resampling
-
-### Module 9 – Dimensionality Reduction
-- Feature Standardization
-- Principal Component Analysis (PCA)
-- Explained Variance Analysis
-
-### Module 10 – Machine Learning
-- Decision Tree
-- Random Forest
-- Support Vector Machine (SVM)
-- Bagging and Boosting
-
-### Module 11 – Unsupervised Learning
-- K-Means Clustering
-- Hierarchical Clustering
-- Association Rule Mining
-- Anomaly Detection using Isolation Forest
-
-## 📈 Model Evaluation
-
-Regression models will be evaluated using:
-
-- Mean Absolute Error (MAE)
-- Mean Squared Error (MSE)
-- Root Mean Squared Error (RMSE)
-- R² Score
-
-Classification models will be evaluated using:
-
-- Accuracy
-- Precision
-- Recall
-- F1-Score
-- Confusion Matrix
-
-## 📂 Project Structure
-
+## Project Structure
 ```text
 Student-Academic-Performance-Analysis-and-Prediction/
-│
 ├── dataset/
-│   └── student_performance.csv
-│
 ├── notebooks/
-│   └── student_performance_analysis.ipynb
-│
 ├── visualizations/
-│
+├── reports/
 ├── README.md
-│
 └── requirements.txt
 ```
 
-*The project structure may evolve as development progresses.*
-
-## 🚀 Project Workflow
-
-1. Dataset Collection
-2. Data Cleaning and Preprocessing
-3. Exploratory Data Analysis (EDA)
-4. Feature Engineering
-5. Regression Analysis
-6. Classification Analysis
-7. Cross-Validation and Bootstrap
-8. Dimensionality Reduction
-9. Machine Learning Model Comparison
-10. Clustering and Anomaly Detection
-11. Results and Conclusion
-
-## ⚙️ Installation
+## Installation
 
 Clone the repository:
 
@@ -139,32 +73,27 @@ Navigate to the project directory:
 cd Student-Academic-Performance-Analysis-and-Prediction
 ```
 
-Install the required libraries:
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## 📌 Current Status
+Run Jupyter Notebook:
 
-🚧 Project initialization – In Progress.
+```bash
+jupyter notebook
+```
 
-The project will be developed incrementally, covering the concepts and practical applications of Regression, Classification, and Machine Learning.
+## Results
+The project compares multiple regression and classification models using appropriate evaluation metrics. It also explores student groups, feature relationships, and unusual observations.
 
-## 🎓 Learning Outcomes
+Actual model results and visualizations are available in the project notebook.
 
-- Practical understanding of Machine Learning algorithms.
-- Experience with real-world dataset analysis.
-- Model training, evaluation, and comparison.
-- Understanding supervised and unsupervised learning.
-- Data visualization and interpretation.
+## Conclusion
+This project demonstrates the application of data analysis and Machine Learning techniques to understand student academic performance and explore score prediction.
 
-## 👨‍💻 Author
-
+## Author
 **Md Raihan Mostafa**
 
-Aspiring AI Engineer | Python | Data Science | Machine Learning
-
----
-
-*This project is developed as an undergraduate mini-project covering Modules 6–11: Regression, Classification and Machine Learning.*
+GitHub:https://github.com/mdraihanmostafa746-coder
