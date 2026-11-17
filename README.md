@@ -83,11 +83,9 @@ Student-Academic-Performance-Analysis-and-Prediction/
 ├── notebooks/
 │   └── student_performance_analysis.ipynb
 │
-├── reports/
-│   └── Md_RaihMostafa_Mini_Project_1.pdf
-│
 ├── visualizations/
 │   └── Distribution of Student Exam Scores.png
+|   └──  And more.....
 │
 ├── requirements.txt
 └── README.md
